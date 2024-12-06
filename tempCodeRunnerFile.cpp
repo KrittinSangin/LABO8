@@ -19,7 +19,7 @@ int main(){
     } else {
     cout << "Enter your bounty: ";
     cin >> bounty;
-    if(bounty <= 1100000000){
+    if(bounty < 1100000000){
         character = "Sanji";
     }else{
         character = "Zoro";
